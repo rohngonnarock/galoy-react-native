@@ -1,0 +1,68 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# VS Code
+.vscode
+
+# ios
+ios/Pods
+ios/Xcode.app
+ios/.bundle
+ios/vendor
+
+# Bundle artifact
+*.jsbundle
+
+
+ios/GaloyApp.app.dSYM.zip
+ios/AppStore_io.galoy.app.mobileprovision
+ios/fastlane/report.xml
+app/services/lnd/generated/*
+android/api-8350101450647692243-59029-b9bec84a7e5a.json
+android/fastlane/report.xml
+android/fastlane/metadata/android/en-US/
+
+galoy.code-workspace 
+
+.phrase.yml
+ios/GoogleService-Info.plist
